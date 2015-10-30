@@ -1,0 +1,14 @@
+{
+  "log": ["CRUD"],
+  "CORS":{
+    "Origin":["*"],
+    "Headers":["If-Modified-Since","Cache-Control","Content-Type"],
+    "MaxAge": 1728000
+  },
+  "databases": {
+    "test": {
+      "server": "walrus:",
+      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
+    }
+  }
+}

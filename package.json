@@ -1,0 +1,18 @@
+{
+  "name": "changes-xhr",
+  "version": "0.0.0",
+  "description": "xhr client for Couchbase Lite",
+  "main": "lib/changes.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "prova": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}
