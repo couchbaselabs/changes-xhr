@@ -35,10 +35,18 @@ Changes.jsonxhr("GET", url + id, function(error, doc){
 })
 ```
 
-POST JSON:
+POST JSON to create a document:
 
 ```
 Changes.jsonxhr("POST", url, function(error, ok){
     console.log("created", ok.id)
 }, {random : Math.random()})
 ```
+
+### How to run tests
+
+```sh
+npm install
+node test/test.js -b
+```
+
